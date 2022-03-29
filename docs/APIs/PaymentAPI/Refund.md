@@ -1,7 +1,7 @@
 # Refund
 
 This API is used to send refund transaction request. Merchants needs to add session 
-token received during login api call in the header of this API.
+token received during login API call in the header of this API.
 
 
 ## Endpoint
@@ -62,11 +62,11 @@ POST `/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount`
 
 ### Minimum Requirements
 
-The below table contains the mandatory fields required for a successful request. The full request schemas are available in our [API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount).
-
-The below table identifies the required query parameters in the request message.
-
-The below table identifies the required json properties in the request message.
+The table below contains: - 
+- mandatory fields required for a successful request
+- The full request schemas are available in our [API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount).
+- identifies the required query parameters in the request message.
+- identifies the required json properties in the request message.
 ### Request
 | Variable | Type | Length |  Mandatory / Optional/ Conditional (M / O / C) | Description / Values |
 | -------- | ------- | -- | ------------ | ------------------ |
@@ -97,8 +97,8 @@ The below table identifies the required json properties in the request message.
 | `reqTime` | *Timestamp* | HHMMSS | M | Transaction initiated time |
 | `tranDate` | *Date* | DDMMYYYY | C  |Original transaction date |
 | `tranTime` | *Timestamp* | HHMMSS | C | Original transaction time |
-| `cardLastNumber` | *string* | 04 | C (if included pre auth Completion)  | Last 4 digits of Card Number  |
-| `cardBin` | *string* | 06 | C (if included refund) | First 6 digits of the Card, used in the original (sale) transaction |
+| `cardLastNumber` | *string* | 04 | C (if included pre auth Completion)  | Last 4 digits .... of Card Number  |
+| `cardBin` | *string* | 06 | C (if included refund) | First 6 digits .... of the Card, used in the original (sale) transaction |
 | `callbackURL` | *string* | 100 | O | Response URL, place holder for notification API call feature |
 | `mrchCountryCode` | *string* | 03 | M | Merchant Country Code (3-digit numeric value) |
 | `tranType` | *string* | 50 | O | Transaction Description |
@@ -217,7 +217,7 @@ The below table identifies the required json properties in the request message.
 
 
 
-Below table provides the list of application's error code and its description.
+The table below provides the list of application's error code and its description.
 
 | ErrorCode |  Description/Values |
 | --------  | ------------------ |
