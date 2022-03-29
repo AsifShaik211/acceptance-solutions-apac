@@ -93,8 +93,8 @@ The below table identifies the required json properties in the request message.
 | `reqTime` | *Timestamp* | HHMMSS | M | Transaction initiated time |
 | `tranDate` | *Date* | DDMMYYYY | C  |Original transaction date |
 | `tranTime` | *Timestamp* | HHMMSS | C | Original transaction time |
-| `cardLastNumber` | *string* | 04 | C (if included pre auth Completion)  | Last 4 digits .... of Card Number  |
-| `cardBin` | *string* | 06 | C (if included refund) | First 6 digits .... of the Card, used in the original (sale) transaction |
+| `cardLastNumber` | *string* | 04 | C (if included pre auth Completion)  | Last 4 digits of Card Number  |
+| `cardBin` | *string* | 06 | C (if included refund) | First 6 digits of the Card, used in the original (sale) transaction |
 | `callbackURL` | *string* | 100 | O | Response URL, place holder for notification API call feature |
 | `mrchCountryCode` | *string* | 03 | M | Merchant Country Code (3-digit numeric value) |
 | `tranType` | *string* | 50 | O | Transaction Description |
@@ -169,7 +169,7 @@ The below table identifies the required json properties in the request message.
 | Variable | Type | Length |  Mandatory/Optional/Conditional  | Description/Values |
 | -------- | ------- | -- | ------------ | ------------------ |
 | `merchantId` | *string* | 20 | M | Merchant ID |
-| `transactionId` | *string* | 20 | M | Unique Id (Biller tran details table) |
+| `transactionId` | *string* | 20 | M | Unique ID (Biller tran details table) |
 | `functionCode` | *string* | 02 | M | Same as request |
 | `invoiceNumber` | *string* | 20 | O | Terminal Invoice Number |
 | `cardLastNumber` | *string* | 4 | C (if required for Pre-auth) | Last 4 Digits of Card Number |
