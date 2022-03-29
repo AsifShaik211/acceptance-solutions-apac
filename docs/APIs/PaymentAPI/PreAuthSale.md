@@ -1,7 +1,7 @@
 # Pre Auth Sale
 
 This API is used to send preAuth transaction request. Merchants needs to add session 
-token received during login api call in the header of this API. 
+token received during login API call in the header of this API. 
 
 
 ## Endpoint
@@ -59,11 +59,11 @@ POST `/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount`
 
 ### Minimum Requirements
 
-The below table contains the mandatory fields required for a successful request. The full request schemas are available in our [API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount).
+The table below contains the mandatory fields required for a successful request. The full request schemas are available in our [API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount).
 
-The below table identifies the required query parameters in the request message.
+The table below identifies the required query parameters in the request message.
 
-The below table identifies the required json properties in the request message.
+The table below identifies the required json properties in the request message.
 ### Request
 | Variable | Type | Length |  Mandatory / Optional/ Conditional (M / O / C) | Description / Values |
 | -------- | ------- | -- | ------------ | ------------------ |
@@ -216,7 +216,7 @@ The below table identifies the required json properties in the request message.
 
 
 
-Below table provides the list of application's error code and its description.
+The table below provides the list of application's error code and its description.
 
 | ErrorCode |  Description/Values |
 | --------  | ------------------ |
