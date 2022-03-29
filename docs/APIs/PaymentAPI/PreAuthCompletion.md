@@ -1,7 +1,7 @@
 # Pre Auth Completion
 
 This API is used to send pre auth completion transaction request. Merchants needs to add session 
-token received during login api call in the header of this API.
+token received during login API call in the header of this API.
 
 
 ## Endpoint
@@ -60,11 +60,11 @@ POST `/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount`
 
 ### Minimum Requirements
 
-The below table contains the mandatory fields required for a successful request. The full request schemas are available in our [API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount).
-
-The below table identifies the required query parameters in the request message.
-
-The below table identifies the required json properties in the request message.
+The table below contains: -
+- mandatory fields required for a successful request
+- The full request schemas are available in our [API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount)
+- identifies the required query parameters in the request message
+- identifies the required json properties in the request message
 
 ### Request
 | Variable | Type | Length |  Mandatory / Optional/ Conditional (M / O / C) | Description / Values |
@@ -213,7 +213,10 @@ The below table identifies the required json properties in the request message.
 | `settlementDetails` | *string* | 2000 | O | set settlement Details |
 
 
-The table below provides the list of error codes and description for this application.
+
+
+
+The table below provides the list of application's error code and its description.
 
 | ErrorCode |  Description/Values |
 | --------  | ------------------ |
