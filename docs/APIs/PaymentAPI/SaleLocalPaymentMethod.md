@@ -56,13 +56,13 @@ POST `/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount`
 ***Token should be sent as Authorization.***
 
 ### Minimum Requirements
-The table below contains the mandatory fields:
-Required for a successful Sale request
-Required query parameters in the request message
-Required json properties
-Merchants can access the full request schemas in our API Explorer[API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount).
+The table below contains:-
+- mandatory fields required for a successful Sale request
+- required query parameters in the request message
+- required json properties
+- merchants can access the full request schemas in our [API Explorer](../api/?type=post&path=/boardinggateway/cloudpoi/PosPush/nonOpiProcessAmount).
 
-The below table identifies the required json properties in the request message.
+The table below identifies the required json properties in the request message.
 ### Request
 | Variable | Type | Length |  Mandatory / Optional/ Conditional (M / O / C) | Description / Values |
 | -------- | ------- | -- | ------------ | ------------------ |
