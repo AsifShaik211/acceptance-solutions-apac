@@ -2,9 +2,9 @@
 
 As part of the initial set-up, prior to integration, merchants would have received unique credentials as part of the set up process.
 Login API authenticates merchants’ unique credentials, with a response that includes: -
-A session token
+- A session token
 - Expiry time of the session token
-- This token is mandatory in the header submitted for each API being triggered. 
+This token is mandatory in the header submitted for each API being triggered. 
 
 
 ## API Category: Mandatory
